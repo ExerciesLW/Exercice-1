@@ -1,0 +1,5 @@
+node_modules/
+*.log
+*.pdf
+*.psd
+maquette-nth-child.jpg

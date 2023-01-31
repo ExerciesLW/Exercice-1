@@ -1,0 +1,60 @@
+section.one{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px @paddingSection;
+    div:nth-child(1){
+        background: url('../img/snow-forest-lake.jpg');
+        background-size: 100%;
+        background-position: 0 0;
+        transition: all 0.3s ease-in-out;
+        filter: drop-shadow(0 0 0 rgba(@darkBlueColor, .5));
+        &:hover {
+          background-size: 120%;
+          filter: drop-shadow(10px 10px 10px rgba(@darkBlueColor, .5));
+        } 
+        a{
+            color: @darkBlueColor;
+        }     
+    }
+    div:nth-child(2){
+        background: url('../img/night-sky-snow.jpg');
+        background-size: 100%;
+        transition: all 0.3s ease-in-out;
+        filter: drop-shadow(0 0 0 rgba(@darkBlueColor, .5));
+        &:hover {
+          background-size: 120%;
+          filter: drop-shadow(10px 10px 10px rgba(@darkBlueColor, .5));
+        } 
+        a{
+            color: @lightGreyColor;
+        }
+    }
+    div:nth-child(3){
+        background: url('../img/white-pine-trees.jpg');
+        background-size: 100%;
+        transition: all 0.3s ease-in-out;
+        filter: drop-shadow(0 0 0 rgba(@darkBlueColor, .5));
+        &:hover {
+          background-size: 120%;
+          filter: drop-shadow(10px 10px 10px rgba(@darkBlueColor, .5));
+        } 
+        a{
+            color: @darkBlueColor;
+        }
+    }
+    div{
+        height: 200px;
+        width: 300px;
+        margin: 0 20px;
+        position: relative;
+        a{
+            display: block;
+            height: 200px;
+            width: 300px;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding: 10px;
+            z-index: 0;
+        }
+    }
+}

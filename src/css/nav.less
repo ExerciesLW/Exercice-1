@@ -1,0 +1,25 @@
+nav{
+    background-color: @darkBlueColor;
+    ul{
+        padding: 0 @paddingSection;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        height: 100px;
+        li{
+            color: @whiteColor;
+            transition: all .3s ease-in-out;
+            a {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+                width: 100%;
+                text-transform: uppercase;
+            }
+            :hover{
+                color: @blueColor;
+                background-color: rgba( @whiteColor, .5);
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+section.two{
+    padding: 0 @paddingSectionCities;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    img{
+        height: 400px;
+        width: 400px;
+    }
+    div{
+        color: @blueColor;
+        font-family: 'Montserrat';
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        h2{
+            font-size: 23px;
+            text-transform: uppercase;
+            font-weight: 500;
+            letter-spacing: -1px;
+            text-align: center;
+        }
+        p{
+            font-size: 14px;
+        }
+        p:nth-child(2){
+            font-weight: 500;
+        }
+    }
+}
