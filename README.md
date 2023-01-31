@@ -1,19 +1,19 @@
 # Exercice SJT
 ## Guide Arborescence 
 
-* dist : Endroit oú les fichiers compilé sont générés (Utilisation de Parcel-Bundler)
+* `dist` : Endroit oú les fichiers compilé sont générés (Utilisation de Parcel-Bundler)
 
-* node_modules : oú sont stocker les modules NPM
+* `node_modules` : oú sont stocker les modules NPM
 
-* src : Dossier de développement
+* `src` : Dossier de développement
 
-* src/css : Emplacement des fichiers CSS & LESS
+* `src/css` : Emplacement des fichiers CSS & LESS
 
-* src/css/styles.less : Point d'entrée du dossier CSS oú on importe tout les fichiers LESS pour la compilation
+* `src/css/styles.less` : Point d'entrée du dossier CSS oú on importe tout les fichiers LESS pour la compilation
 
-* src/img : Dossier contenant les images brutes utilisées qui seront optimisées par parcel
+* `src/img` : Dossier contenant les images brutes utilisées qui seront optimisées par parcel
 
-* index.html : Fichier de la page HTML
+* `index.html` : Fichier de la page HTML
 
 ## Utiliser parcel
 
