@@ -17,4 +17,4 @@ Installer NodeJS et NPM sur la machine de développement
 ### Modification du projet
 >Faire un `npm install` à la racine du projet
 >Installer parcel-bundler avec la commande `npm i -g parcel-bundler`
->Lancer la commande `parcel ./src/index.html` pour lancer l'environnement de développement
+>Lancer la commande `parcel ./src/index.html` pour lancer l'environnement de développement 
